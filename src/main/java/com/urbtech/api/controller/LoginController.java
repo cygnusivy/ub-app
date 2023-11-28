@@ -10,6 +10,7 @@ import com.urbtech.domain.service.LoginService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 import javax.validation.Valid;
 import java.util.Optional;
