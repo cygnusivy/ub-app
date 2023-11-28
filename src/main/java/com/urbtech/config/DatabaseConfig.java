@@ -32,5 +32,4 @@ public class DatabaseConfig {
         return dataSource;
     }
 
-    // Outras configurações relacionadas ao banco de dados, como JPA, Hibernate, etc.
 }
