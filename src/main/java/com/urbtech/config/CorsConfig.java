@@ -15,31 +15,4 @@ public class CorsConfig implements WebMvcConfigurer{
                 .allowedOrigins("*")
                 .allowedMethods("*");
     }
-
-//    @Bean
-//    public WebMvcConfigurer corsConfigurer() {
-//        return new WebMvcConfigurer() {
-//            @Override
-//            public void addCorsMappings(CorsRegistry registry) {
-//                registry.addMapping("/usuario/**")
-//                        .allowedOrigins("*")
-//                        .allowedMethods("GET", "POST", "PUT", "DELETE");
-//
-//                registry.addMapping("/login/**")
-//                        .allowedOrigins("*")
-//                        .allowedMethods("GET", "POST", "PUT", "DELETE");
-//
-//                registry.addMapping("/post/**")
-//                        .allowedOrigins("*")
-//                        .allowedMethods("GET", "POST", "PUT", "DELETE");
-//
-//                registry.addMapping("/comunidade/**")
-//                        .allowedOrigins("*")
-//                        .allowedMethods("GET", "POST", "PUT", "DELETE");
-//
-//                registry.addMapping("/comentario/**")
-//                        .allowedOrigins("*")
-//                        .allowedMethods("GET", "POST", "PUT", "DELETE");
-//            }
-//        };
 }
