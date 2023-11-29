@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/usuario")
+@RequestMapping("usuario")
 public class UserController {
 
     private UserRepository userRepository;
