@@ -16,7 +16,6 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "*")
 @AllArgsConstructor
 @RequestMapping("login")
 public class LoginController {

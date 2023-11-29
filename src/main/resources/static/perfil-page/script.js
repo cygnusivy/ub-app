@@ -49,7 +49,7 @@ const dataFormatada = `${ano}-${mes}-${dia}`;
 const imagemExibida = document.querySelector('#imagem-padrao');
 const userId = localStorage.getItem('userId');
 
-fetch(`https://urbtech-app-3f539deca240.herokuapp.com/usuario/retornoUsuario/${userId}`)
+fetch(`https://urbtech-app-3f539deca240.herokuapp.com/urbtech-app/usuario/retornoUsuario/${userId}`)
     .then(function (res){
         if (res.status === 200){
             return res.json();
@@ -75,7 +75,7 @@ fetch(`https://urbtech-app-3f539deca240.herokuapp.com/usuario/retornoUsuario/${u
 
     function aatualizarConta(){
 
-        fetch(`https://urbtech-app-3f539deca240.herokuapp.com/usuario/atualizarUsuario/${userId}`,
+        fetch(`https://urbtech-app-3f539deca240.herokuapp.com/urbtech-app/usuario/atualizarUsuario/${userId}`,
         {
             headers: {
                 "Accept": "application/json",

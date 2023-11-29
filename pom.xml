@@ -12,9 +12,10 @@
 
 	<groupId>com.urbtech.urbtech</groupId>
 	<artifactId>urbtech</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>urbtech</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -80,6 +81,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>urbtech-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
