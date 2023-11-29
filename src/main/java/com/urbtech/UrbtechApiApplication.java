@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.urbtech.config")
+//@ComponentScan(basePackages = "com.urbtech.config")
 public class UrbtechApiApplication extends SpringBootServletInitializer {
 
 	@Override
